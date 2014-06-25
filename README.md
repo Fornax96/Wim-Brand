@@ -1,1 +1,1 @@
-Nothing to see here, switch to the gh-pages branch.
+Nothing to see here, please checkout the gh-pages branch
