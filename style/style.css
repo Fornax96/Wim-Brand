@@ -1,0 +1,47 @@
+body{
+	/* General settings */
+	background-color: #464646;
+	margin: 0px;
+	background-image: url("head.png");
+	background-size: cover;
+	
+	/* Global styling */
+	scrollbar-track-color: #000000;
+	
+	/* Font settings */
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+
+#head{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+}
+
+#photo{
+	position: absolute;
+	background-image: url("photo.png");
+	background-size: cover;
+	top: 10px;
+	left: 10%;
+	height: 180px;
+	width: 180px;
+	border-radius: 100%;
+}
+
+#body{
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	bottom: 0px;
+	background-image: url("bg.png");
+	overflow-y: scroll;
+}
+
+.headText{
+	position: absolute;
+	left: 10%;
+	margin-left: 200px;
+}
