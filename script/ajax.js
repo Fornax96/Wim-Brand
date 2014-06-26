@@ -9,10 +9,10 @@ function load(page){
 
 req.onreadystatechange = function(){
 if (req.readyState === 4 && req.status === 200){
-		//document.getElementById("body").innerHTML=req.responseText;
-		str = req.responseText;
+		document.getElementById("body").innerHTML=req.responseText;
+		//str = req.responseText;
 		
-		type();
+		//type();
 	}
 };
 
