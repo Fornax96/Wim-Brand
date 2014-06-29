@@ -3,7 +3,7 @@ var req = new XMLHttpRequest();
 function load(page){
 	console.log("Hi");
 	
-	req.open("GET","content/" + page + ".html",true);
+	req.open("GET","content/" + page + ".html?v=" + new Date().getTime(), true);
 	req.send();
 }
 
