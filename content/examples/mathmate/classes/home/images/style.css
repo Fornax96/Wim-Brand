@@ -1,0 +1,16 @@
+body{
+	background-color: transparent;
+	margin: 0px;
+	color: #083F5A;
+	font-family: 'Handlee', cursive;
+}
+#slideshow{
+	background-image: url('border.png');
+	width: 737px;
+	height: 539px;
+	padding: 22px;
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box; 
+}

@@ -1,0 +1,42 @@
+body{
+	background-image: url("bg.png");
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Handlee', cursive;
+	font-size: 30px; 
+}
+.klasse{
+	top: 80px;
+}
+#container{
+	position: absolute;
+	background-image: url("container.png");
+	top: 60px;
+	bottom: 0px;
+	left: 400px;
+	right: 50px;
+	min-width: 900px;
+	min-height: 500px;
+	padding-left: 20px;
+	color: #083F5A;
+	box-shadow: -18px -18px 40px #000000;
+}
+#contentFrame{
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+#logo{
+	position: absolute;
+	top: 20px;
+}
+#login{
+	position: absolute;
+	background-image: url("login.png");
+	top: 70px;
+	left: 50px;
+	width: 300px;
+	height: 200px;
+}

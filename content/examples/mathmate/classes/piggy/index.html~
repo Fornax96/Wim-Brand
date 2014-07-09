@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Localhost</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<script src="js/s.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="cannonInput">
+			Angle:<br>
+			<span id="angle">0</span>&#186;<br>
+			<input id="upbutton" type="button" value="^" onclick="aimCannon('up');"><br>
+			<input id="downbutton" type="button" value="v" onclick="aimCannon('down');">
+			<br><br>
+			Force:<br>
+			<span id="force">20</span><br>
+			<input id="upbutton" type="button" value=">" onclick="aimCannon('fUp');"><br>
+			<input id="downbutton" type="button" value="<" onclick="aimCannon('fDown');">
+		</div>
+			
+		<div id="game">
+			<div id="ball"></div>
+			<img id="cannon" src="style/cannon.png">
+			<img id="mountain" src="style/mountain.png">
+			<img id="explosion" src="style/explosion.gif">
+			<img src="style/piggy.png" id="piggy">
+			<div id="display">
+				<input type="button" id="startButton" value="Start" onclick="start();">	<br>
+				<span id="message"></span>
+			</div>
+		</div>
+	</body>
+</html>

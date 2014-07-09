@@ -1,0 +1,31 @@
+body{
+	background-color: transparent;
+	margin: 0px;
+	color: #083F5A;
+}
+#content{
+	position: absolute;
+	top: 0px;
+	width: 1000px;
+	height: 100%;
+	left: 50%;
+	margin-left: -500px;
+	text-align: center;
+	overflow: hidden;
+}
+.contentFrame{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#answer{
+	position: absolute;
+	top: 200px;
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+	text-align: center;
+	font-size: 160px;
+	font-family: "Arial";
+}

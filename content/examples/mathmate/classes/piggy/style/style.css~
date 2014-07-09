@@ -1,0 +1,77 @@
+body{
+	background-color: transparent;
+	margin: 0px;
+	color: #bbbbbb;
+	text-align: center;
+}
+#game{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+	top: 30px;
+	left: 48px;
+	border: 2px #000 solid;
+	overflow: hidden;
+	background-image: url("bg.png");
+}
+#cannonInput{
+	position: absolute;
+	width: 38px;
+	height: 500px;
+	top: 30px;
+	left: 4px;
+	border: 2px #000 solid;
+	overflow: hidden;
+	background-color: #111;
+}
+#ball{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 30px;
+	background-image: url("bomb.png");
+	z-index: 10;
+	visibility: hidden;
+}
+#cannon{
+	position: absolute;
+	top: 170px;
+	left: 30px;
+	z-index: 20;
+}
+#mountain{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 200px;
+	height: 280px;
+}
+#piggy{
+	position: absolute;
+	top: 440px;
+	left: 500px;
+}
+#explosion{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	z-index: 50;
+	height: 256px;
+	width: 256px;
+}
+#display{
+	position: absolute;
+	width: 90%;
+	height: 100px;
+	color: #DD1111;
+	font-size: 30px;
+	font-family: "Impact", Charcoal, sans-serif;
+}
+.gore{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+}

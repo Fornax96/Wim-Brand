@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Berekeningen</title>
+		<script src="js.js" type="text/javascript"></script>
+		<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			body{
+				font-family: 'Handlee', cursive;
+				font-size: 20px; 
+				margin: 0px;
+			}
+			#tafel{
+				position: absolute;
+				left: 0%;
+				right: 75%;
+				height: 100%;
+				overflow: auto;
+			}
+			#machtreeks{
+				position: absolute;
+				left: 25%;
+				right: 50%;
+				height: 100%;
+				overflow: auto;
+			}
+			#breukenreeks{
+				position: absolute;
+				left: 50%;
+				right: 25%;
+				height: 100%;
+				overflow: auto;
+			}
+			#kwadratenreeks{
+				position: absolute;
+				left: 75%;
+				right: 0%;
+				height: 100%;
+				overflow: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="tafel">
+			Tafels<br>
+			<input id="tafelInput" type="number">
+			<input id="tafelButton" value="Calculate" type="button" onClick="tafel();"><br>
+			<input id="tafelInput2" type="number"><br>
+			<hr>
+			<span id="tafelOut"></span>
+		</div>
+		<div id="machtreeks">
+			Machten<br>
+			<input id="machtenInput" type="number">
+			<input id="machtenButton" value="Calculate" type="button" onClick="machten();"><br>
+			<hr>
+			<span id="machtenOut"></span>
+		</div>
+		<div id="breukenreeks">
+			Breuken<br>
+			<input id="breukenInput" type="number">
+			<input id="breukenButton" value="Calculate" type="button" onClick="breuken();"><br>
+			<hr>
+			<span id="breukenOut"></span>
+		</div>
+		<div id="kwadratenreeks">
+			Kwadraten<br>
+			<input id="kwadratenInput" type="number">
+			<input id="kwadratenButton" value="Calculate" type="button" onClick="kwadraten();"><br>
+			<hr>
+			<span id="kwadratenOut"></span>
+		</div>
+	</body>
+</body>
