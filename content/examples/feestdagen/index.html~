@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Feestdagen Berekenen</title>
+		<script src="js.js" type="text/javascript"></script>
+		<style>
+			body{
+				color: #111;
+				background-color: #888;
+			}
+			td, input{
+				border: 1px solid #111;
+				background-color: #AAA;
+				color: #111;
+			}
+		</style>
+	</head>
+	<body>
+		<form id="someId" action="#" method="post" onsubmit="calculate(); return false;" onkeyup="calculate();">
+			Jaartal: <input id="jaartal" maxlength="5" type="input">
+			<input type="button" value="Compute" onClick="calculate">
+		</form>
+		<table>
+			<tr>
+				<td>Schrikkeljaar: </td>
+				<td id="schrikkeljaar"></td>
+			</tr>
+			<tr>
+				<td>Goede Vrijdag: </td>
+				<td id="goedeVrijdag"></td>
+			</tr>
+			<tr>
+				<td>Pasen: </td>
+				<td id="pasen"></td>
+			</tr>
+			<tr>
+				<td>Hemelvaart: </td>
+				<td id="hemelvaart"></td>
+			</tr>
+			<tr>
+				<td>Pinksteren: </td>
+				<td id="pinksteren"></td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+<!-- 
+Scrikkeljaar formule:
+if(year % 5 == 0) && ((year % 100 != 0) || (year % 400 == 0)))
+
+Berekenen:
+Schrikkeljaar, Goede vrijdag, Pasen, Hemelvaart, Pinksteren
+-->

@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>BSN</title>
+		<script src="bsn.js" type="text/javascript"></script>
+		<style>
+			body{
+				color: #0A0;
+				background-color: #111;
+			}
+			.style{
+				border: 1px solid #0A0;
+				background-color: #222;
+				color: #0A0;
+			}
+		</style>
+	</head>
+	<body>
+		BSN:<input id="bsn" class="style" type="text" maxlength="9">
+		<input id="button" class="style" type="button" onClick="validate();" value="Validate">
+		
+		<div id="valid">
+			<br>
+		</div>
+		<br><br>
+		- Wim
+	</body>
+</html>
